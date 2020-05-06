@@ -10,9 +10,10 @@ include PARAMABLE
   @@artists = []
 
   def initialize
+    super
 #    @@artists << self
-#    @songs = []
-#  end
+    @songs = []
+  end
 
   #def self.find_by_name(name)
   #  @@artists.detect{|a| a.name == name}
