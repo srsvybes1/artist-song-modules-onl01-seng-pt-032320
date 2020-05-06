@@ -24,8 +24,9 @@ class Song
 #  def self.reset_all
   #  self.all.clear
 #  end
-def song
-  @
+def self.all
+  @@songs 
+end
 #  def self.count
 #    self.all.count
 #  end
